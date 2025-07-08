@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   ColorFilter iconColorFilter = ColorFilter.mode(Colors.black, BlendMode.srcIn);
 
-  var startWalkIconAsset = SvgPicture.asset('assets/SVG/blind.svg', semanticsLabel: 'Start Walk Icon', colorFilter: ColorFilter.mode(Colors.white, BlendMode.srcIn));
+  var startWalkIconAsset = SvgPicture.asset('assets/SVG/blind.svg', semanticsLabel: 'Start Walk Icon', colorFilter: ColorFilter.mode(Colors.yellow, BlendMode.srcIn));
 
   static final List<Widget> _pages = <Widget>[Homepage(), Center(child: Text('Walks')), Center(child: Text('Bags')), Container(), Center(child: Text('Profile')), Center(child: Text('Profile'))];
 
